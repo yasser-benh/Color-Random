@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22rem;
+    
+}
+button{
+    width: 18rem;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 70px 2px gray;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    font-family: cursive;
+    transition: all 0.6s;
+    cursor: pointer;
+
+    
+}
+button:hover{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0px 0px 70px 9px rgb(255, 255, 255);
+}
+button:active{
+    transform: translateY(2px);
+    transform: rotateZ(180deg);
+    
+    
+}
